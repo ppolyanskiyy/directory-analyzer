@@ -159,8 +159,8 @@ void File::CodeLineCount()
 
 void File::CommentedLineCount()
 {
-	bool is_at_the_same_line{};
-	bool is_end_of_current_comment{};
+	bool is_at_the_same_line = false;
+	bool is_end_of_current_comment = false;
 
 	size_t letter_index{};
 	while (letter_index < m_file_data_size)
