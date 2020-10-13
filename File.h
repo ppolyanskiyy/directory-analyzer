@@ -44,8 +44,8 @@ private:
 	void TotalLineCount();
 
 	std::filesystem::path m_file_path;
-	std::string m_file_data;
-	size_t m_file_data_size;
+	std::string m_file_data{};
+	size_t m_file_data_size{};
 	int m_blank_line_count{},
 		m_commented_line_count{},
 		m_physical_line_count{},
