@@ -144,7 +144,7 @@ void File::PhysicalLineCount()
 
 void File::CodeLineCount()
 {
-	size_t letter_index{};
+	size_t letter_index = 0;
 
 	while (letter_index < m_file_data_size)
 	{
@@ -162,7 +162,7 @@ void File::CommentedLineCount()
 	bool is_at_the_same_line = false;
 	bool is_end_of_current_comment = false;
 
-	size_t letter_index{};
+	size_t letter_index = 0;
 	while (letter_index < m_file_data_size)
 	{
 		// To avoid counting :  string sample = "//not comment /*this too*/"
