@@ -89,7 +89,7 @@ void DirectoryAnalyzer::AnalyzeDirectory()
 	const size_t max_threads = std::thread::hardware_concurrency();
 	const size_t step = m_processed_files_count / max_threads;
 
-	size_t begin{};
+	size_t begin = 0;
 
 	std::vector<std::thread>file_threads(max_threads - MAIN_THREAD); // const size_t MAIN_THREAD = 1
 
