@@ -1,0 +1,24 @@
+one
+two
+three
+
+	
+	    
+// comm
+// comm
+	//comm
+
+code // com
+/* com */
+code /* com */
+	/* begin com
+	continue
+	continue
+
+		
+		*/
+
+code /*com */ code /*com*/ code // com
+last
+
+	
