@@ -131,7 +131,7 @@ void DirectoryAnalyzer::PrintDirectoryAnalysis(std::ostream& output)const
 	output << "Total count of blank lines			: " << m_total_blank_line_count << "\n";
 	output << "Total count of code lines			: " << m_total_code_line_count << "\n";
 	output << "Total count of physical lines		: " << m_total_physical_line_count << "\n";
-	output << "Count of processed files				: " << m_processed_files_count << "\n\n\n";
+	output << "Count of processed files			: " << m_processed_files_count << "\n\n\n";
 
 	for (auto& file : m_files)
 	{
